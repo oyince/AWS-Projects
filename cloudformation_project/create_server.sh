@@ -1,1 +1,1 @@
-aws cloudformation create-stack --stack-name $1 --template-body file://cfserver.yml  --parameters file://cf-server_parameters.json --region=us-east-1 --capabilities=CAPABILITY_IAM
+aws cloudformation create-stack --stack-name simserv --template-body file://sim_server.yml  --parameters file://simser_parameters.json --region=us-west-2 --capabilities=CAPABILITY_IAM

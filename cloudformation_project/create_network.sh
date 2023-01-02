@@ -1,1 +1,1 @@
-aws cloudformation create-stack --stack-name $1 --template-body file://cfnetwork.yml  --parameters file://cf-network_parameters.json --region=us-east-1
+aws cloudformation create-stack --stack-name simnet --template-body file://simnet_infra.yml  --parameters file://simnet_parameters.json --region=us-west-2
